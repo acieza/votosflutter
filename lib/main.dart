@@ -38,6 +38,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    if (votosList == null) {
+      votosList = List<Votos>();
+    }
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
