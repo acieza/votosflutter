@@ -4,7 +4,7 @@ import 'package:votosflutter/models/votos.dart';
 import 'package:http/http.dart';
 
 class ApiService {
-  final String apiUrl = "http://192.168.1.130:3000/votos";
+  final String apiUrl = "http://192.168.1.47:3000/votos";
 
   Future<List<Votos>> getVotos() async {
     Response res = await get(apiUrl);

@@ -2,9 +2,8 @@ import 'package:votosflutter/models/votos.dart';
 import 'package:flutter/material.dart';
 
 class VotosList extends StatelessWidget {
-  const VotosList({Key key, this.votos}) : super(key: key);
-
   final List<Votos> votos;
+  const VotosList({Key key, this.votos}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
